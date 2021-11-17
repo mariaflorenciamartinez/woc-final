@@ -1,0 +1,137 @@
+/* HOME */
+
+#main section {
+    padding: 4rem 0;
+    border-top: 4px;
+  }
+
+  /* BANNER */
+  .custom-height {
+    height: 60vh;
+  }
+
+  .home__titulo__destacado {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.3rem;
+    color: #4f5d75;
+    margin-bottom: 15px;
+  }
+  
+  .home__titulo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.1rem;
+    margin-top: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .home__parrafo {
+    font-family: 'Rubik', sans-serif;
+    line-height: 28px;
+    font-size:1.5rem;
+  }
+
+  /* HOME FIRST SECTION */
+
+.section-web {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-web__article:nth-of-type(3) {
+  grid-column: span 2;
+}
+
+.img-1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/sitio-web-aac.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);	
+}
+.img-2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/sitio-web-sact.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img-3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/sitio-web-91cac.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.img-4 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/ojs-bypc.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img-5 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/ojs-rosario.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img-6 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/ojs-aac.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  padding: 0 0 2rem 0;
+}
+.img-7 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/campus-virtual-aaofp.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img-8 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/campus-virtual-faso.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.img-9 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imagenes/campus-virtual-aac.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  padding: 0 0 2rem 0;
+}

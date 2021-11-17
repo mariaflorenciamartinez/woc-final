@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+p { 
+  font-family: 'Rubik', sans-serif;
+	font-size: 2em;
+	color: #213f50;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+	font-size: 3em;
+	color: #22223B;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+	font-size: 3.2em;
+	color: #22223B;
+}
+
+ul,
+ol {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+a { 
+  font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+ul li {
+	font-size: 18px;
+	color: #22223B;
+	margin-left: 1em;
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 980px) {
+  .section-one__article {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .section-web {
+    grid-template-columns: 1fr;
+  }
+  .section-web__article:nth-of-type(3) {
+    grid-column: span 1;
+  }
+}
+

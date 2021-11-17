@@ -1,0 +1,29 @@
+footer {
+	padding: 3rem 2rem;
+	background-color: #2D3142;
+	width: 100%;
+	text-align: center;
+	display: grid;
+  	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 100px;
+}
+
+footer titulo {
+	font-family: 'Rubik', sans-serif;
+	width: 25%;
+}
+
+.footer__titulo {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.1rem;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: seashell;
+}
+
+.footer__parrafo {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+	color: seashell;
+}

@@ -1,0 +1,56 @@
+#quienes {
+	padding: 5rem;
+}
+
+.quienes__titulo__destacado {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.5rem;
+	color: #4f5d75;
+	margin-bottom: 15px;
+}
+
+.quienes__titulo {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.1rem;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.quienes__parrafo {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2rem;
+	text-align: justify;
+	margin-bottom: 15px;
+}
+
+.gallery {
+	width: 80%;
+	margin: 4rem auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 400px 400px 400px;
+	&__item {
+		@for $i from 1 through 3 {
+			&--#{$i} {
+				background-image: url(../../imagenes/quienes#{$i}.jpg);
+				background-size: cover;
+			}
+		}
+	}
+}
+
+.gallery -name {
+	width: 80%;
+	margin: 4rem auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 400px 400px 400px;
+}
+
+#quienes-somos {
+	padding: 5rem;
+}
+
+#quienes-referencias {
+	padding: 5rem;
+}
